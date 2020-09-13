@@ -1,24 +1,32 @@
-# README
+# Home_Fitness
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## サイト概要
+コロナ禍で家での筋トレを始めた人も増えて、自分のトレーニング記録を載せて
+仲間と話したり、励まし合うことができます。
+どんなトレーニングをしたかや、食事などのみんなのためになる情報を共有したり、誰かの投稿に
+コメントしたり、「いいね」ボタンで応援することができます。
 
-Things you may want to cover:
+マイページに自分の目標　「〜kg痩せる」｢〜筋を鍛える」などを登録
 
-* Ruby version
+投稿で質問を投げて、コメントで誰でも教えあえます。
 
-* System dependencies
 
-* Configuration
+### サイトテーマ
+家トレに取り組むユーザー同士が気軽に交流できるサイト
 
-* Database creation
+### テーマを選んだ理由
+　自分が家で筋トレを始めて誰かと共有できたら良いと思ったこと、新しい挑戦を始めてからひとと交流を持てる場があると良いと思い作成しました。
 
-* Database initialization
+### ターゲットユーザ
+家トレを新しく始めた人
 
-* How to run the test suite
+### 主な利用シーン
+自分のトレーニング記録
+同じ目標の仲間と励まし合う
+トレーニングや食事などでアドバイスが欲しい時
 
-* Services (job queues, cache servers, search engines, etc.)
+## 設計書
 
-* Deployment instructions
+### 機能一覧
+https://docs.google.com/spreadsheets/d/1fK7xlVpaUGiLXTElm-p_72v4mG-_6FZ834jwwRERZMc/edit#gid=0
 
-* ...
