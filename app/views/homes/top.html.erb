@@ -1,2 +1,23 @@
-<h1>Homes#top</h1>
-<p>Find me in app/views/homes/top.html.erb</p>
+<div class="row">
+	<div class="main col-md-offset-3 col-md-6">
+		<h1><span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+			<strong>Home_fitness　アプリ</strong></h1>
+			<h2 class="main top-main">筋トレでみんなと繋がろう！</h2>
+			<h3 class="top-message">使い方</h3>
+			<p>筋トレ初心者から経験者まで、お互いに褒め合い切磋琢磨するためのアプリです。<br>
+			トレーニング記録などを投稿して、コメントやいいねをお互いにしあいましょう。</p>
+
+			<% if user_signed_in? %>
+			<% else %>
+				<div class="btn-wrapper">
+					<div class="row">
+						<p><%=link_to "Log in", new_user_session_path, class: "btn btn-info col-xs-10 col-xs-offset-1" %></p>
+					</div>
+					<div class="row">
+						<p><%=link_to "Sign up", new_user_registration_path, class: "btn btn-success col-xs-10 col-xs-offset-1" %></p>
+					</div>
+				</div>
+			<% end %>
+
+	</div>
+</div>

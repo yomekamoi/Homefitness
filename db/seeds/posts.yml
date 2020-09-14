@@ -1,0 +1,34 @@
+posts:
+  -
+    title: "達人プログラマー―システム開発の職人から名匠への道"
+    name: "アンドリュー ハント, デビッド トーマス"
+  -
+    title: "新装版 リファクタリング―既存のコードを安全に改善する― (OBJECT TECHNOLOGY SERIES)"
+    name: "Martin Fowler"
+  -
+    title: "CODE COMPLETE 第2版 上 完全なプログラミングを目指して"
+    name: "矢沢久雄"
+  -
+    title: "CODE COMPLETE 第2版 下 完全なプログラミングを目指して"
+    name: "スティーブ マコネル"
+  -
+    title: "アジャイルサムライ−達人開発者への道−"
+    name: "Jonathan Rasmusson"
+  -
+    title: "アジャイルプラクティス 達人プログラマに学ぶ現場開発者の習慣"
+    name: "Venkat Subramaniam, Andy Hunt"
+  -
+    title: "プログラミング作法"
+    name: "ブライアン カーニハン, ロブ パイク"
+  -
+    title: "Webを支える技術 -HTTP、URI、HTML、そしてREST (WEB+DB PRESS plus)"
+    name: "山本 陽平"
+  -
+    title: "レガシーコード改善ガイド (Object Oriented SELECTION)"
+    name: "マイケル・C・フェザーズ"
+  -
+    title: "ハッカーと画家 コンピュータ時代の創造者たち"
+    name: "ポール グレアム"
+  -
+    title: "増補改訂版Java言語で学ぶデザインパターン入門"
+    name: "結城 浩"
