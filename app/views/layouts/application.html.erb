@@ -20,13 +20,14 @@
  					<span class="icon-bar"></span>
  					</button>
  					<% end %>
- 					<a class="navbar-brand" href="/">BookShelf</a>
+ 					<a class="navbar-brand" href="/">Home_fitness</a>
  				</div>
  				<% if user_signed_in? %>
- 				<div class="collapse navbar-collapse" id="navbar-collapse">
+ 				　　<div class="collapse navbar-collapse" id="navbar-collapse">
  					<ul class="nav navbar-nav">
- 						<li><%= link_to '本棚', '/' %></a></li>
- 						<li><%= link_to 'レビュー', '/' %></li>
+ 						<li><%= link_to '一覧', posts_path %></a></li>
+ 						<li><%= link_to 'レビュー', reviews_path %></li>
+ 						<li><%= link_to 'ユーザー', '' %></li>
  					</ul>
  					<ul class="nav navbar-nav navbar-right">
  						<li class="dropdown">
@@ -38,7 +39,16 @@
  						</ul>
  						</li>
  					</ul>
- 				</div>
+ 				　　</div>
+ 				<% else %>
+ 					<div class="collapse navbar-collapse" id="navbar-collapse">
+ 					<ul class="nav navbar-nav">
+ 						<li class="nav-item"><%= link_to 'About', homes_about_path, class: 'fas fa-question-circle' %></li>
+ 						<li class="nav-item"><%= link_to '一覧', '/', class: 'fas fa-paint-brush' %></li>
+          				<li class="nav-item"><%= link_to '新規登録', new_user_registration_path, class: 'fas fa-edit' %></li>
+          				<li class="nav-item"><%= link_to 'ログイン', new_user_session_path, class: 'fas fa-sign-in-alt' %></li>
+ 					</ul>
+ 				　　</div>
  				<% end %>
  			</div>
  			</nav>

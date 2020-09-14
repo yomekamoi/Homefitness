@@ -15,3 +15,38 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+  color: #2d3133;
+  margin: 0;
+  min-height: 1vh;
+}
+
+
+.top-main {
+  padding: 400px 0 200px;
+  text-align: center;
+  top: 100;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  color: red;
+  background-color: #3ecdc6;
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  background-size: cover;
+  background-image: url("/3466351_m.jpg");
+}
+
+.top-message {
+　padding: 200px 0 100px;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  background-color: #3ecdc6;
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  background-size: cover;
+}
