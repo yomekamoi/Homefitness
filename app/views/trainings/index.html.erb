@@ -1,0 +1,14 @@
+
+<h1>投稿</h1>
+
+
+<div class="main trainings-index">
+  <div class="container">
+    <% @trainings.each do |training| %>
+      <div class="trainings-index-item">
+        <%= link_to(training.content, "/trainings/#{training.id}") %>
+      </div>
+    <% end %>
+  </div>
+</div>
+

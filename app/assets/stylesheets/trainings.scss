@@ -1,0 +1,96 @@
+/* trainings/index ================================ */
+.trainings-index-item {
+  padding: 20px 30px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 2px 6px #c1ced7;
+}
+
+.training-left img {
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+  box-shadow: 0 2px 6px #c1ced7;
+  object-fit: cover;
+}
+
+.training-user-name a {
+  font-weight: 600;
+}
+
+.trainig-user-name a:hover {
+  color: #3ecdc6;
+}
+
+.training-left {
+  float: left;
+  width: 10%;
+}
+
+.training-right {
+  float: left;
+  width: 90%;
+  padding-left: 25px;
+  text-align: left;
+}
+
+/* trainings/show ================================ */
+.trainings-show form {
+  display: inline;
+}
+
+.trainings-show-item {
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 2px 6px #c1ced7;
+  overflow: hidden;
+}
+
+.trainings-show-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+  box-shadow: 0 2px 6px #c1ced7;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.trainings-show-item .training-user-name a {
+  vertical-align: middle;
+  font-size: 24px;
+  margin-left: 15px;
+}
+
+.trainings-show-item p {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.training-time {
+  color: #8899a6;
+  margin-bottom: 10px;
+}
+
+.training-menus {
+  float: right;
+}
+
+.training-menus a, .training-menus input {
+  color: #8899a6;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+/* trainings/new ================================ */
+.trainings-new textarea {
+  font-size: 20px;
+  padding: 10px;
+  min-height: 140px;
+  border: 1px solid rgb(216, 218, 223);
+  resize: none;
+}
+
+.trainings-new textarea::-webkit-input-placeholder {
+  font-size: 24px;
+  opacity: 0.5;
+}

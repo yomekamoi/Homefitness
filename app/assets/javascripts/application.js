@@ -15,6 +15,8 @@
 //= require turbolinks
 //= require jquery
 //= require bootstrap-sprockets
+//= require chartkick
+//= require Chart.bundle
 //= require_tree .
 
 $(document).on('turbolinks:load', function () {
