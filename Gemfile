@@ -68,3 +68,10 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'jquery-rails'
 gem 'kaminari'
 gem 'simple_form'
+gem "refile", require: "refile/rails", github: 'manfe/refile'
+gem "refile-mini_magick"
+gem "chartkick"
+gem 'dotenv-rails'
+group :production do
+  gem 'mysql2'
+end
